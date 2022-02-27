@@ -30,7 +30,7 @@ function numberValue(event) {
         clearDisplayFunction(event)
         op = '-';
         break;
-    case "X":
+    case "x":
         console.log("* was clicked");
         num1 = document.getElementById("textfield").value;
         clearDisplayFunction(event)

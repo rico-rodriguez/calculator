@@ -1,6 +1,5 @@
 body {
     background-color: rgba(188, 255, 233, 0.089);
-
 }
 h1 {
     text-align: center;
@@ -12,10 +11,7 @@ h1 {
 .numbers {
     margin: 5px;
 }
-header {
-    background-image:  url("/dev.gif");
 
-}
 footer {
     text-align: center;
 }
@@ -38,3 +34,11 @@ footer {
     margin-top: 2rem;
     box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.308);
 }
+*, ::before, ::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .fa {
+    color: white;
+  }

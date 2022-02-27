@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(188, 255, 233, 0.089);
+
+}
 h1 {
     text-align: center;
 }
@@ -8,13 +12,29 @@ h1 {
 .numbers {
     margin: 5px;
 }
+header {
+    background-image:  url("/dev.gif");
+
+}
 footer {
     text-align: center;
 }
 #textfield {
     border: 0px none;
-    font-size: xx-large;
+    font-size: 3rem;
     text-align: center;
-    color: cornflowerblue;
+    color: rgb(39, 76, 145);
     font-family: 'Roboto', sans-serif;
+    width: 300px;
+}
+.btn-lg, .btn {
+    width: 70px;
+    height: 70px;
+}
+.container {
+    background-color: rgba(199, 206, 245, 0.274);
+    padding: 20px;
+    width: fit-content;
+    margin-top: 2rem;
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.308);
 }

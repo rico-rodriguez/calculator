@@ -15,42 +15,63 @@
 <h1 class="p-3 mb-2 bg-dark text-white">Calculator</h1>
 </header>
 <body>
-    <div class="row">
-<div class="calculator col align-self-center">
+    <div class="container">
+        <div class="row">
+            <div class="calculator col align-self-center">
 <div class="displayNumbers">
     <input id="textfield" type="text" maxlength="8" value="" disabled>
 </div>
-    <input class="operator add btn btn-primary" type="button" value="+"></button>
-    <input class="operator subtract btn btn-primary" type="button" value="-"></button>
-    <input class="operator divide btn btn-primary" type="button" value="/"></button>
-    <input class="operator multiply btn btn-primary" type="button" value="*"></button>
+</div>
+</div>
+
+<!-- First row of numbers -->
+<div class="row">
+    <div class="calculator col align-self-center">
 <div class="row1 numbers">
-    <input class="1 btn btn-lg btn-primary" type="button" value="1"></button>
-    <input class="2 btn btn-lg btn-primary" type="button" value="2"></button>
-    <input class="3 btn btn-lg btn-primary" type="button" value="3"></button>
+    <input class="1 btn btn-lg btn-outline-info" type="button" value="1"></button>
+    <input class="2 btn btn-lg btn-outline-info" type="button" value="2"></button>
+    <input class="3 btn btn-lg btn-outline-info" type="button" value="3"></button>
+    <input class="operator add btn btn-outline-warning" type="button" value="+"></button>
+</div>
+</div>
 </div>
 
+<!-- Second row numbers -->
+<div class="row">
+    <div class="calculator col align-self-center">
 <div class="row3 numbers">
-    <input class="4 btn btn-lg btn-primary" type="button" value="4"></button>
-    <input class="5 btn btn-lg btn-primary" type="button" value="5"></button>
-    <input class="6 btn btn-lg btn-primary" type="button" value="6"></button>
+    <input class="4 btn btn-lg btn-outline-info" type="button" value="4"></button>
+    <input class="5 btn btn-lg btn-outline-info" type="button" value="5"></button>
+    <input class="6 btn btn-lg btn-outline-info" type="button" value="6"></button>
+    <input class="operator subtract btn btn-outline-warning" type="button" value="-"></button>
 </div>
-
+</div>
+</div>
+<!-- Third row numbers  -->
+<div class="row">
+    <div class="calculator col align-self-center">
 <div class="row4 numbers">
-    <input class="7 btn btn-lg btn-primary" type="button" value="7"></button>
-    <input class="8 btn btn-lg btn-primary" type="button" value="8"></button>
-    <input class="9 btn btn-lg btn-primary" type="button" value="9"></button>
+    <input class="7 btn btn-lg btn-outline-info" type="button" value="7"></button>
+    <input class="8 btn btn-lg btn-outline-info" type="button" value="8"></button>
+    <input class="9 btn btn-lg btn-outline-info" type="button" value="9"></button>
+    <input class="operator divide btn btn-outline-warning" type="button" value="/"></button>
+</div>
+</div>
 </div>
 
+<!-- Utility bottom row  -->
+<div class="row">
+    <div class="calculator col align-self-center">
 <div class="clearEquals">
-    <input class="0 btn btn-lg btn-primary" type="button" value="0"></button>
-    <input class="clear btn btn-lg btn-primary erase" type="button" value="C"></button>
-    <input class="equals btn btn-lg btn-primary erase" id="equal" type="button" value="="></button>
+    <input class="0 btn btn-lg btn-outline-info" type="button" value="0"></button>
+    <input class="clear btn btn-lg btn-outline-dark erase" type="button" value="C"></button>
+    <input class="equals btn btn-lg btn-outline-danger erase" id="equal" type="button" value="="></button>
+    <input class="operator multiply btn btn-outline-warning" type="button" value="*"></button>
+</div>
+</div>
+</div>
+</div>
 
-</div>
-    
-</div>
-</div>
 
 <footer class="p-3 mb-2 bg-dark text-white fixed-bottom">Rico Rodriguez</footer>
 <script src="main.js"></script>
